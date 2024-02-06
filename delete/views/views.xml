@@ -7,6 +7,7 @@
         <field name="inherit_id" ref="hellow.view_ej_pet_form"/>
         <field name="arch" type="xml">
             <field name="type" position="after">
+                <field name="date_b"/>
                 <field name="paseo"/>
             </field>
             <field name = "name" position = "after">
@@ -26,6 +27,7 @@
         <field name="arch" type="xml">
             <field name="type" position="after">
                 <field name="paseo" optional="show"/>
+                 <field name="date_b" optional="show"/>
             </field>
             <field name="color" position="replace">
                 <field name="piel" optional="show"/>

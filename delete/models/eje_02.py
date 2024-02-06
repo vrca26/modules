@@ -7,8 +7,10 @@ class ejemplo02(models.Model):
     
     is_pretty_name = fields.Boolean(string="is pretty name", compute="_compute_pretty_name")
 
-    @api.depends('piel')
+    date_b = fields.Date("Fecha de adopción", default=fields.Date.today)
+
+    @api.depends("piel","name")
     def _compute_pretty_name(self):
         for record in self:
-            record.is_pretty_name = record.piel = "Blue"
+            record.is_pretty_name = record.piel == "Blue"
     
