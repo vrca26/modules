@@ -31,7 +31,6 @@
     'depends': ['base','hellow'],
     'data': [
               #'security/ir.model.access.csv',
-              'data/pet_data.xml',
               'views/views.xml',
             ],
     'images': ['static/description/banner.jpg'],

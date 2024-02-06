@@ -3,9 +3,9 @@ from odoo import api, fields, models
 class ejemplo01(models.Model):
     _name = "eje.01"
     name  = fields.Char(string = "name", required = True)
-    age = fields.Integer(String = "age", required = True)
-    color = fields.Char(String = "color", required = True)
-    is_new = fields.Boolean(String ="is_new", required = True)
+    age = fields.Integer(String = "age")
+    color = fields.Char(String = "color")
+    is_new = fields.Boolean(String ="is_new")
     type = fields.Selection([
         ("dog","Dog"),
         ("cat","Cat"),

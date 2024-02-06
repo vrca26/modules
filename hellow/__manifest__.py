@@ -20,7 +20,7 @@
 ##############################################################################
 
 {
-    'name': 'Hello Worlds',
+    'name': 'Mascotas',
     'version': '16.0.1.0.0',
     'author': 'Victor Carrion',
     'maintainer': 'Victor Carrion',
@@ -30,8 +30,9 @@
     'summary': 'Hola Mundo, probando la creacion de un primer modulo para Odoo.',
     'depends': ['base'],
     'data': [
-              'security/ir.model.access.csv',     
+              'security/ir.model.access.csv',  
+              #'data/pet_data.xml',   
               'views/views.xml',
             ],
-    'images': ['static/description/banner.jpg'],
+    'images': ['static/description/icon.jpg'],
 }
