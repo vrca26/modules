@@ -1,0 +1,123 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hellow
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0-20240203\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-05 18:23+0000\n"
+"PO-Revision-Date: 2024-02-05 18:23+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hellow
+#: model:ir.model.fields,field_description:hellow.field_eje_01__age
+msgid "Age"
+msgstr "Edad"
+
+#. module: hellow
+#: model:ir.model.fields.selection,name:hellow.selection__eje_01__type__bird
+msgid "Bird"
+msgstr "Pajaro"
+
+#. module: hellow
+#: model:ir.model.fields.selection,name:hellow.selection__eje_01__type__cat
+msgid "Cat"
+msgstr "Gato"
+
+#. module: hellow
+#: model:ir.model.fields,field_description:hellow.field_eje_01__color
+msgid "Color"
+msgstr "Color"
+
+#. module: hellow
+#: model:ir.model.fields,field_description:hellow.field_eje_01__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: hellow
+#: model:ir.model.fields,field_description:hellow.field_eje_01__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: hellow
+#: model:ir.model.fields,field_description:hellow.field_eje_01__display_name
+msgid "Display Name"
+msgstr "Desplegar nombre"
+
+#. module: hellow
+#: model:ir.model.fields.selection,name:hellow.selection__eje_01__type__dog
+msgid "Dog"
+msgstr "Perro"
+
+#. module: hellow
+#: model:ir.model.fields.selection,name:hellow.selection__eje_01__type__fish
+msgid "Fish"
+msgstr "Pescado"
+
+#. module: hellow
+#: model:ir.model.fields,field_description:hellow.field_eje_01__id
+msgid "ID"
+msgstr "ID"
+
+#. module: hellow
+#: model:ir.model.fields,field_description:hellow.field_eje_01__is_new
+msgid "Is New"
+msgstr "Es nuevo"
+
+#. module: hellow
+#: model:ir.model.fields,field_description:hellow.field_eje_01____last_update
+msgid "Last Modified on"
+msgstr "Ultima modificacion"
+
+#. module: hellow
+#: model:ir.model.fields,field_description:hellow.field_eje_01__write_uid
+msgid "Last Updated by"
+msgstr "Actualizado por"
+
+#. module: hellow
+#: model:ir.model.fields,field_description:hellow.field_eje_01__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualizacion en"
+
+#. module: hellow
+#: model:ir.model.fields.selection,name:hellow.selection__eje_01__type__other
+msgid "Other"
+msgstr "Otro"
+
+#. module: hellow
+#: model:ir.ui.menu,name:hellow.ej_pets_menu
+#: model:ir.ui.menu,name:hellow.submenu_ej_pets_action
+#: model:ir.ui.menu,name:hellow.submenu_ej_pets_menu
+msgid "Pets"
+msgstr "Mascotas"
+
+#. module: hellow
+#: model_terms:ir.ui.view,arch_db:hellow.view_ej_pet_form
+msgid "Pets List"
+msgstr "Lista de mascotas"
+
+#. module: hellow
+#: model:ir.model.fields,field_description:hellow.field_eje_01__type
+msgid "Type"
+msgstr "Tipo"
+
+#. module: hellow
+#: model:ir.model,name:hellow.model_eje_01
+msgid "eje.01"
+msgstr ""
+
+#. module: hellow
+#: model:ir.model.fields,field_description:hellow.field_eje_01__name
+msgid "name"
+msgstr "Nombre"
+
+#. module: hellow
+#: model:ir.actions.act_window,name:hellow.act_ej_pet
+msgid "pet"
+msgstr "Mascota"
