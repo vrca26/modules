@@ -1,5 +1,5 @@
 from odoo import api, fields, models
-#Probando 1
+#Probando 1, subida 
 class ejemplo01(models.Model):
     _name = "eje.01"
     name  = fields.Char(string = "name", required = True)
