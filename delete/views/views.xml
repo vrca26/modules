@@ -9,6 +9,9 @@
             <field name="type" position="after">
                 <field name="paseo"/>
             </field>
+            <field name = "name" position = "after">
+                <field name ="is_pretty_name"/>
+            </field>
             <field name="color" position="replace">
                 <field name="piel"/>
             </field>
@@ -26,6 +29,9 @@
             </field>
             <field name="color" position="replace">
                 <field name="piel" optional="show"/>
+            </field>
+            <field name = "name" position = "after">
+                <field name ="is_pretty_name"/>
             </field>
         </field>
     </record>

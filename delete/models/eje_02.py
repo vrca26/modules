@@ -5,3 +5,10 @@ class ejemplo02(models.Model):
     piel = fields.Char(String = "Piel", size = 20, default = "blue")
     paseo = fields.Boolean(String = "Paseo")
     
+    is_pretty_name = fields.Boolean(string="is pretty name", compute="_compute_pretty_name")
+
+    @api.depends('piel')
+    def _compute_pretty_name(self):
+        for record in self:
+            record.is_pretty_name = record.piel = "Blue"
+    
