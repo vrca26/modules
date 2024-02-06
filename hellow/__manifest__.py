@@ -30,7 +30,7 @@
     'summary': 'Hola Mundo, probando la creacion de un primer modulo para Odoo.',
     'depends': ['base'],
     'data': [
-              'security/ir.model.access.csv',
+              'security/ir.model.access.csv',     
               'views/views.xml',
             ],
     'images': ['static/description/banner.jpg'],
